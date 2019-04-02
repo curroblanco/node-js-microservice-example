@@ -1,0 +1,26 @@
+{
+  "name": "js-microservice-example",
+  "version": "1.0.0",
+  "description": "Node JS microservice example",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "tsc": "tsc",
+    "dev": "node app.js",
+    "prod": "tsc && node ./build/app.js"
+  },
+  "author": "Curro Blanco",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.16.1",
+    "body-parser": "^1.18.3",
+    "circular-json": "^0.5.9",
+    "express": "^4.16.4",
+    "express-mongoose": "^0.1.0",
+    "mongoose": "^5.4.20",
+    "typescript": "^3.4.1"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.3.24"
+  }
+}
